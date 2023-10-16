@@ -57,3 +57,8 @@ team = [
         "live show": "Phantom of the Opera",
     }
 ]
+
+for (let teamMember of team) {
+    console.log(`${teamMember.name} lives in ${teamMember.city} and their
+    favorite food is ${teamMember.food}!`);
+}
