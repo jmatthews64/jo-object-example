@@ -22,4 +22,5 @@ costumes = [
 //We can retrieve valuse from objects with dot notation
 for (let costume of costumes) {
     console.log(costume.charater);
+    console.log(`It has ${costume['number of pieces']} pieces.`)
 }
